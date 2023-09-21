@@ -1,18 +1,19 @@
-import React from "react";
-import LargeScreen from "./LargeScreen";
-//import MobileView from "./MobileView";
+// import React from "react";
+// //import LargeScreen from "./LargeScreen";
+// import LandingPage from "./LandingPage";
+// //import MobileView from "./MobileView";
 
-function Home() {
-  return (
-    <div>
-      <div className="hidden md:block lg:block ">
-        <LargeScreen />
-      </div>{" "}
-      {/* <div className="md:hidden lg:hidden ">
-                    <MobileView />
-                  </div>{" "} */}{" "}
-    </div>
-  );
-}
+// function Home() {
+//   return (
+//     <div>
+//       <div className=" ">
+//         <LandingPage />
+//       </div>{" "}
+//       {/* <div className="md:hidden lg:hidden ">
+//                                 <MobileView />
+//                               </div>{" "} */}{" "}
+//     </div>
+//   );
+// }
 
-export default Home;
+// export default Home;

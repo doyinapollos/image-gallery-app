@@ -1,11 +1,13 @@
-const AuthRoutes = {
-  //dashboard: '/dashboard',
-};
+// const AuthRoutes = {
+//   //dashboard: '/dashboard',
+// };
 
-const NonAuthRoutes = {
-  home: "/",
-  // moviedetails: "/movie/:Id",
-  // mobile: "/mobile",
-};
+// const NonAuthRoutes = {
+//   Home: "/",
+//   // signup: "/sign-up",
+//   signin: "/sign-in",
+//   logout: "/logout",
+//   LargeScreen: "/dashboard",
+// };
 
-export { AuthRoutes, NonAuthRoutes };
+// export { AuthRoutes, NonAuthRoutes };
