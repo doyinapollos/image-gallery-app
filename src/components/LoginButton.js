@@ -34,7 +34,7 @@ const LoginButton = () => {
               Log In/Sign Up
             </button>
           </div>
-          <div className="w-[90%] h-auto flex flex-col justify-start items-center ">
+          <div className="mt-[30px] md:mt-[0] w-[90%] h-auto flex flex-col justify-start items-center ">
             <div className="w-[70%] h-[150px] text-black flex flex-col justify-center items-center ">
               <h1 className=" text-[24px] font-[700] ">
                 Welcome to Our Image Gallery!
@@ -47,7 +47,7 @@ const LoginButton = () => {
                 favorite images, please sign up or log in to your account.
               </p>
             </div>
-            <div className="w-[90%] h-[270px] flex justify-center items-center ">
+            <div className="mt-[70px] md:mt-[0px] w-[90%] h-[270px] flex justify-center items-center ">
               <ImageCarousel />
             </div>
           </div>

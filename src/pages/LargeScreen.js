@@ -46,7 +46,7 @@ const LargeScreen = () => {
       <DragDropContext onDragEnd={handleDragEnd}>
         <div className="w-[100%] h-auto flex flex-col justify-center items-center ">
           <NavBar onSearch={handleSearch} />
-          <h2 className="relative bottom-[50px] left-[300px] ">{`Welcome ${user.name}`}</h2>
+          <h2 className="hidden lg:relative bottom-[50px] left-[300px] ">{`Welcome ${user.name}`}</h2>
           {loading ? (
             <div className="flex justify-center items-center h-screen">
               <RingLoader color="#36D7B7" size={100} />{" "}
