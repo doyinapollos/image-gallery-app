@@ -46,6 +46,7 @@ const LargeScreen = () => {
       <DragDropContext onDragEnd={handleDragEnd}>
         <div className="w-[100%] h-auto flex flex-col justify-center items-center ">
           <NavBar onSearch={handleSearch} />
+          <h2 className="relative bottom-[50px] left-[300px] ">{`Welcome ${user.name}`}</h2>
           {loading ? (
             <div className="flex justify-center items-center h-screen">
               <RingLoader color="#36D7B7" size={100} />{" "}
@@ -53,7 +54,7 @@ const LargeScreen = () => {
           ) : (
             // Render the image gallery here
 
-            <div className="w-[80%] h-auto flex flex-wrap justify-center items-center mt-[15px] ">
+            <div className="w-[80%] h-auto flex flex-wrap justify-center items-center ">
               <ImageGallery images={filteredImages} />{" "}
             </div>
           )}
