@@ -44,7 +44,7 @@ const LargeScreen = () => {
   return (
     isAuthenticated && (
       <DragDropContext onDragEnd={handleDragEnd}>
-        <div className="w-[100%] h-[1000px] flex flex-col justify-center items-center ">
+        <div className="w-[100%] h-auto flex flex-col justify-center items-center ">
           <NavBar onSearch={handleSearch} />
           {loading ? (
             <div className="flex justify-center items-center h-screen">
@@ -53,7 +53,7 @@ const LargeScreen = () => {
           ) : (
             // Render the image gallery here
 
-            <div className="w-[80%] h-[700px] flex flex-wrap justify-center items-center mt-[15px] ">
+            <div className="w-[80%] h-auto flex flex-wrap justify-center items-center mt-[15px] ">
               <ImageGallery images={filteredImages} />{" "}
             </div>
           )}
