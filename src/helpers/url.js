@@ -1,13 +1,12 @@
-// const AuthRoutes = {
-//   //dashboard: '/dashboard',
-// };
+const AuthRoutes = {
+  //dashboard: '/dashboard',
+  largeScreen: "/dashboard",
+};
 
-// const NonAuthRoutes = {
-//   Home: "/",
-//   // signup: "/sign-up",
-//   signin: "/sign-in",
-//   logout: "/logout",
-//   LargeScreen: "/dashboard",
-// };
+const NonAuthRoutes = {
+  home: "/",
+  signin: "/sign-in",
+  logout: "/logout",
+};
 
-// export { AuthRoutes, NonAuthRoutes };
+export { AuthRoutes, NonAuthRoutes };
